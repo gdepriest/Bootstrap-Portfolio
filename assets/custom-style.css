@@ -1,3 +1,120 @@
 body {
     background-image: url(../assets/images/interlaced.png);
 }
+
+.navbar-brand {
+    height: 100%;
+    font-family: "PT Serif", serif;
+    font-size: 28px;
+    margin: 0;
+    /* background-color: #17a2b8!important; */
+}
+
+.nav {
+    font-size: 18px;
+}
+
+h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+    color: rgb(11, 11, 73);
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+.spacer {
+    margin-top: 10% !important;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.image-wrap {
+    position: relative;
+    /* border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px); */
+}
+
+.imagetext {
+    text-align: center;
+    display: inline-block;
+    margin: 33% 0;
+    width: 93%;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    background-color: gray;
+    font-size: 18px;
+    font-family: 'Open Sans' sans-serif;
+    padding: 5px;
+}
+
+.img-icon {
+    height: 200px !important;
+    width: 100%;
+    background-size: cover !important;
+    margin: 5px !important;
+    z-index: 0;
+}
+
+
+
+
+#content7 {
+    background-image: url("../images/dontbe_unsplash.jpg");
+}
+
+#content8 {
+    background-image: url("../images/smoke_unsplash.jpg");
+}
+footer.footer {
+    /* background-color: teal; */
+    margin-top: 5% !important; 
+    min-height: 100px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 16px !important;
+    color: white;
+}
+
+.selfie {
+    margin: 0 10px 10px 0;
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .selfie {
+        width: 100%;
+    }
+    .image-wrap {
+        width: 100%;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .selfie {
+        width: 100%;
+    }
+    .image-wrap {
+        width: 100%;
+    }
+ }
+
+ /* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .selfie {
+        width: 30%;
+    }
+   
+}
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .selfie {
+        width: 30%;
+    }
+    
+}

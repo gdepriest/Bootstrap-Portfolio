@@ -6,11 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif" rel="stylesheet">
     <link rel="stylesheet" href="assets/custom-style.css">
 </head>
 
@@ -19,37 +16,42 @@
 
         <nav class="navbar fixed-top 
                 navbar-expand-lg navbar-light bg-light">
-            <h1 class="h-100 navbar-brand bg-info text-white px-2">Genevieve DePriest</h1>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+            <div class="container">
+                <h1 class="navbar-brand h-100 bg-info text-white px-2">Genevieve DePriest</h1>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
+                        <a class="nav nav-item nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav nav-item nav-link" href="contact.html">Contact</a>
+                    </div>
                 </div>
             </div>
         </nav>
 
-        <div class="container mx-auto mt-5 bg-white">
+
+        <div class="container mx-auto mt-5 bg-white spacer">
             <div class="row">
-                <div class="col-sm-8">
+                <div class="col-sm-12">
                     <div class="page-header">
                         <h2>About Me</h2>
+                        <hr/>
                     </div>                    
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-3">
-                    <img src="assets/images/Genevieve_DePriest.jpg" class="img-fluid img-thumbnail float-left">
-                </div>
-                <div class="col-sm-7">
+                <div class="col-sm-12 about">
+                    <img src="assets/images/Genevieve_DePriest.jpg" class="selfie img-thumbnail float-left">
+                
                     <p>
                         Cupcake ipsum dolor sit amet dragée. Sugar plum chupa chups bonbon powder biscuit chocolate bar powder sweet marzipan. Sweet roll cake pastry fruitcake. Chocolate cake tiramisu jujubes. Dessert tart topping. Cheesecake topping cake chocolate cake. Jelly-o tart muffin caramels. Chupa chups brownie muffin bear claw croissant ice cream. Dragée powder cupcake. Danish fruitcake apple pie cake apple pie chupa chups biscuit. Toffee icing chocolate bar bonbon croissant. Cake chocolate biscuit.
                     </p>
                     <p>
+                        Cupcake donut apple pie marshmallow jujubes tiramisu cookie muffin tootsie roll. Toffee ice cream cupcake. Cotton candy dessert halvah cake. Pastry dessert icing jelly beans ice cream. Cookie cookie tootsie roll cheesecake chocolate chocolate soufflé bear claw. Sweet gummi bears chocolate bar muffin. Toffee powder carrot cake sesame snaps sesame snaps marshmallow jelly. Powder marzipan lollipop jelly beans icing. Toffee marzipan chupa chups cookie soufflé chocolate marshmallow tart. Jujubes jelly beans biscuit candy canes toffee danish. Sweet jujubes pudding biscuit fruitcake gummi bears pie. Candy icing sesame snaps carrot cake macaroon liquorice sugar plum tootsie roll jujubes.  
+
                         Cupcake donut apple pie marshmallow jujubes tiramisu cookie muffin tootsie roll. Toffee ice cream cupcake. Cotton candy dessert halvah cake. Pastry dessert icing jelly beans ice cream. Cookie cookie tootsie roll cheesecake chocolate chocolate soufflé bear claw. Sweet gummi bears chocolate bar muffin. Toffee powder carrot cake sesame snaps sesame snaps marshmallow jelly. Powder marzipan lollipop jelly beans icing. Toffee marzipan chupa chups cookie soufflé chocolate marshmallow tart. Jujubes jelly beans biscuit candy canes toffee danish. Sweet jujubes pudding biscuit fruitcake gummi bears pie. Candy icing sesame snaps carrot cake macaroon liquorice sugar plum tootsie roll jujubes.  
                     </p>
                     <p>
@@ -59,20 +61,32 @@
             </div>
         </div>
 
-
-
-        <footer class="footer mt-auto py-3" style="height: 100px">
-            <div class="container">
-                <div class="row h-25 bg-info"></div>
-                <div class="row h-75 bg-secondary"></div>
+    </div>
+    <footer class="footer bg-info mt-auto py-3">
+        <div class="container">
+            <div>
+                <p id="createdBy"></p>
+                <p id="year"></p>                
             </div>
-            <div class="container"></div>
-        </footer>
-
-
-    </div><!-- Content here -->
+            <div class="row h-75 bg-secondary"></div>
+        </div>
+        <div class="container"></div>
+    </footer><!-- Content here -->
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        var year = new Date();
+        year = year.toDateString();
+        document.getElementById("year").textContent = year;
+
+        var createdBy = "Created By Genevieve DePriest ♥";
+        document.getElementById("createdBy").textContent = createdBy;
+
+    </script>
 </body>
+
 
 </html>
